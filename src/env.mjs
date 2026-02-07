@@ -39,7 +39,7 @@ export const env = createEnv({
    * middlewares) or client-side so we need to destruct manually.
    */
   runtimeEnv: {
-    NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL || 'https://valerie.vercel.app',
+    NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL || 'https://valerie-boba.vercel.app',
     NODE_ENV: process.env.NODE_ENV,
     NEXT_PUBLIC_TMDB_TOKEN: process.env.NEXT_PUBLIC_TMDB_TOKEN || '',
     NEXT_PUBLIC_GOOGLE_ANALYTICS_ID:
