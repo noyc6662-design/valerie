@@ -1,3 +1,31 @@
 node_modules
 env.zip
 .env
+.env.local
+.env.*.local
+
+# Next.js
+.next
+out
+dist
+build
+
+# Dependencies
+.pnp
+.pnp.js
+
+# Cache
+.cache
+.eslintcache
+
+# OS
+.DS_Store
+*.pem
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode
+.idea
+*.iml

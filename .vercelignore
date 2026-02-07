@@ -1,0 +1,13 @@
+.git
+.gitignore
+README.md
+.env.example
+.husky
+.eslintignore
+.prettier*
+.next/cache
+npm i -g vercel/
+dataconnect/
+docker-compose.yml
+Dockerfile
+firebase.json

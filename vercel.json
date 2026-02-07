@@ -2,6 +2,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "framework": "nextjs",
+  "skipValidation": true,
   "env": [
     "NEXT_PUBLIC_APP_URL",
     "NEXT_PUBLIC_TMDB_TOKEN",
