@@ -7,6 +7,7 @@ import type { Metadata, Viewport } from 'next';
 import { Inter as FontSans } from 'next/font/google';
 import localFont from 'next/font/local';
 import { Analytics } from '@/components/analytics';
+import { FirebaseAnalytics } from '@/components/firebase-analytics';
 import { siteConfig } from '@/configs/site';
 import { env } from '@/env.mjs';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -97,6 +98,7 @@ export default function RootLayout({
           {children}
           <TailwindIndicator />
           <Analytics />
+          <FirebaseAnalytics />
           <SpeedInsights />
           {/* </TrpcProvider> */}
           {env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
