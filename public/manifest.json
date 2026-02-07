@@ -1,6 +1,6 @@
 {
-    "name": "CineGeek",
-    "short_name": "CineGeek",
+    "name": "Valerie",
+    "short_name": "Valerie",
     "description": "A movie and series streaming website.",
     "start_url": "/",
     "display": "standalone",

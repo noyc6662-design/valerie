@@ -1,9 +1,9 @@
-# CineGeek 2.0 Beta 🎬
+# Valerie 🎬
 > **Containerized Movie & Series Streaming Platform**
 
 ![Status](https://img.shields.io/badge/Status-Beta-blue?style=for-the-badge) ![Docker](https://img.shields.io/badge/Deployment-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Next.js](https://img.shields.io/badge/Framework-Next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-**CineGeek** is a premium, fully dockerized streaming application that offers a vast library of movies and series. Designed for consistency and ease of deployment, it runs exclusively within a containerized environment, eliminating the need for local Node.js setups.
+**Valerie** is a premium, fully dockerized streaming application that offers a vast library of movies and series. Designed for consistency and ease of deployment, it runs exclusively within a containerized environment, eliminating the need for local Node.js setups.
 
 ---
 
@@ -30,8 +30,8 @@
 
 1.  Clone the repository and navigate to the root:
     ```bash
-    git clone [https://github.com/dragonpilee/cinegeek.git](https://github.com/dragonpilee/cinegeek.git)
-    cd cinegeek
+    git clone [https://github.com/dragonpilee/valerie.git](https://github.com/dragonpilee/valerie.git)
+    cd valerie
     ```
 
 2.  Configure your environment variables:

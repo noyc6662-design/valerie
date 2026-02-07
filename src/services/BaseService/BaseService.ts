@@ -24,9 +24,8 @@ class BaseService {
       config: InternalAxiosRequestConfig,
     ): InternalAxiosRequestConfig => {
       if (config.baseURL?.includes('themoviedb')) {
-        // const params = config.params as Record<string, unknown>;
-        // config.params = { ...params, api_key: env.NEXT_PUBLIC_TMDB_API_KEY };
-        config.headers.Authorization = `Bearer ${env.NEXT_PUBLIC_TMDB_TOKEN}`;
+        const params = config.params as Record<string, unknown>;
+        config.params = { ...params, api_key: env.NEXT_PUBLIC_TMDB_TOKEN };
       }
       return config;
     };
