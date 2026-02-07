@@ -43,7 +43,7 @@ const SiteFooter = () => {
           )}
         </ul>
         <p className="text-xs text-foreground/60 sm:text-sm">
-          Made with 🧡 Alan_Cyril | All Rights Reserved | {new Date().getFullYear()} {siteConfig.author}
+          Made with 🧡 FTG XANDER | All Rights Reserved | {new Date().getFullYear()} {siteConfig.author}
         </p>
       </div>
       {/* <div className="container flex flex-col items-center justify-between md:h-24 md:flex-row md:py-0 gap-4"> */}
